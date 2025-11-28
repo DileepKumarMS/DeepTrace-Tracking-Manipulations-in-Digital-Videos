@@ -19,7 +19,9 @@
   <!-- Repo Stats -->
   <img src="https://img.shields.io/github/stars/DileepKumarMS/DeepTrace-Tracking-Manipulations-in-Digital-Videos?style=social" alt="Stars">
   <img src="https://img.shields.io/github/forks/DileepKumarMS/DeepTrace-Tracking-Manipulations-in-Digital-Videos?style=social" alt="Forks">
+  <img src="https://img.shields.io/github/issues/DileepKumarMS/DeepTrace-Tracking-Manipulations-in-Digital-Videos" alt="Issues">
 
+</p>
 
 # DeepTrace: Tracking Manipulations in Digital Videos
 
@@ -38,10 +40,8 @@ DeepTrace is a deepfake video detection system that combines a **ResNeXt-50** co
 
 The trained PyTorch model is large (~216 MB), so it is **not stored directly in this repo**.
 
-➡️ Download it from Google Drive:  
-[Download model weights](https://drive.google.com/file/d/1Lq1ZmdUp7uZFTp5SI-07GVz2SL7zaX1L/view?usp=sharing)
+➡️ **Download the trained model from Google Drive:**  
+https://drive.google.com/file/d/1Lq1ZmdUp7uZFTp5SI-07GVz2SL7zaX1L/view?usp=sharing
 
 After downloading, place the file here:
 
-```text
-models/model_90_acc_60_frames_final_data.pt
