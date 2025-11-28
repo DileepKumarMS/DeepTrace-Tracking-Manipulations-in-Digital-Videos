@@ -1,8 +1,6 @@
 # DeepTrace: Tracking Manipulations in Digital Videos
 
-DeepTrace is a deepfake video detection system that combines a **ResNeXt-50** convolutional backbone with an **LSTM** to analyse sequences of video frames and classify them as **REAL** or **FAKE**.  
-
-It provides a **Flask-based web interface** where users can upload a video, choose how many frames to analyse, and see:
+DeepTrace is a deepfake video detection system that combines a **ResNeXt-50** convolutional backbone with an **LSTM** to analyse sequences of video frames and classify them as **REAL** or **FAKE**. It provides a **Flask-based web interface** where users can upload a video, choose how many frames to analyse, and see:
 
 - Final prediction (REAL / FAKE)  
 - Model confidence (%)  
@@ -13,17 +11,14 @@ It provides a **Flask-based web interface** where users can upload a video, choo
 
 ---
 
-## 🔍 Demo (UI Screenshots)
+## 🔗 Download Trained Model Weights
 
-The project includes some UI screenshots under `website_screenshots/`:
+The trained PyTorch model is large (~216 MB), so it is **not stored directly in this repo**.
 
-- `deepLanding.png` – Landing page
-- `upload.png` – Video upload page
-- `result.png` – Results with prediction and frames
+➡️ Download it from Google Drive:  
+[Download model weights](https://drive.google.com/file/d/1Lq1ZmdUp7uZFTp5SI-07GVz2SL7zaX1L/view?usp=sharing)
 
-You can embed them in GitHub like this (optional):
+After downloading, place the file here:
 
-```markdown
-![Landing Page](website_screenshots/deepLanding.png)
-![Upload Page](website_screenshots/upload.png)
-![Result Page](website_screenshots/result.png)
+```text
+models/model_90_acc_60_frames_final_data.pt
