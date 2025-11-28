@@ -1,0 +1,23 @@
+# Mac system files
+.DS_Store
+
+# Large model weights
+models/model_90_acc_60_frames_final_data.pt
+
+# Generated face/frame images
+static/images/face_*.jpg
+static/images/frame_*.jpg
+
+# Uploaded / sample videos
+static/video/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
