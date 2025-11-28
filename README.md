@@ -45,3 +45,5 @@ https://drive.google.com/file/d/1Lq1ZmdUp7uZFTp5SI-07GVz2SL7zaX1L/view?usp=shari
 
 After downloading, place the file here:
 
+models/model_90_acc_60_frames_final_data.pt
+
